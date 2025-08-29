@@ -2,13 +2,13 @@
 
 This project uses Machine Learning techniques to predict the likelihood of heart disease in patients based on clinical data. It leverages the UCI Heart Disease dataset and applies Logistic Regression and Random Forest models to classify patients as either having heart disease (1) or not (0).
 
-📌 Features
+## 📌 Features
 
 Data preprocessing (missing values, categorical encoding, scaling).
 
 Exploratory Data Analysis (EDA) with visualizations (correlation heatmap, histograms).
 
-ML Models:
+### ML Models:
 
 Logistic Regression (baseline model)
 
@@ -22,11 +22,11 @@ User-friendly input template (heart_user_template.csv).
 
 Supports predictions on new patient data via uploaded CSV.
 
-📊 Dataset
+## 📊 Dataset
 
-Source: UCI Heart Disease Dataset
+### Source: UCI Heart Disease Dataset
 
-Key features:
+### Key features:
 
 Age, Sex, Chest Pain Type (cp)
 
@@ -44,13 +44,13 @@ Exercise-Induced Angina (exang)
 
 ST Depression (oldpeak), Slope, Ca, Thal
 
-Target:
+### Target:
 
 num > 0 → Heart Disease (1)
 
 num = 0 → No Heart Disease (0)
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone the repo and install dependencies:
 
@@ -58,7 +58,7 @@ git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
 pip install -r requirements.txt
 
-🚀 Usage
+## 🚀 Usage
 
 Run the Jupyter Notebook / Colab Notebook to train models.
 
@@ -83,7 +83,7 @@ print(preds)
 
 1 = Heart Disease
 
-📈 Results
+## 📈 Results
 
 Logistic Regression → Moderate accuracy
 
@@ -93,7 +93,7 @@ Feature Importance reveals key predictors:
 
 Age, Cholesterol, Resting BP, Thal, ST depression, etc.
 
-📷 Visualizations
+## 📷 Visualizations
 
 Correlation Heatmap
 
@@ -101,7 +101,7 @@ Histograms of key features
 
 Random Forest Feature Importance
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 
@@ -111,7 +111,7 @@ Joblib (Model Saving/Loading)
 
 Google Colab / Jupyter Notebook
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Add Deep Learning models (Neural Networks).
 
