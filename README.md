@@ -54,7 +54,7 @@ num = 0 → No Heart Disease (0)
 
 Clone the repo and install dependencies:
 
-git clone https://github.com/yourusername/heart-disease-prediction.git
+git clone https://github.com/SaloniKhare/Disease-Prediction.git
 cd heart-disease-prediction
 pip install -r requirements.txt
 
